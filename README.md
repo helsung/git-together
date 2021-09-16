@@ -22,4 +22,5 @@ From here, one person should drive while the other navigates...
 
 9. Merge and when both partners checkout to main and pull, you should see the freshest copy of main
 
+Repeat steps and switch driver/ navigator roles!
 
