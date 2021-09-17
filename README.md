@@ -16,11 +16,13 @@ From here, one person should drive while the other navigates...
 
 6. Let's resolve conflicts in your IDE - first step is to check out to your `main` branch and `git pull`. Why? When you merged the first branch onto main, the latest `main` is not reflected in your local repo
 
-7. checkout to the branch with conflicts and `git merge main`. Discuss with your partner how to resolve conflicts and then commit.
+7. checkout to the branch with conflicts and `git merge main`. Discuss with your partner how to resolve conflicts, *TEST*, then commit.
 
 8. Now on Github, you'll see that the PR shows the branch is clean of conflicts and ready to merge to main
 
 9. Merge and when both partners checkout to main and pull, you should see the freshest copy of main
+
+10. You can safely delete the merged branch in both your remote and local repo. You can delete the remote branch directly on Github as prompted and `git fetch --prune` to fetch all remote refs and remove any refs that are no longer being used. `git branch -d branchName` to remove branch in your local repo.
 
 Repeat steps and switch driver/ navigator roles!
 
