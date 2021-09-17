@@ -46,7 +46,7 @@ class Picker extends React.Component {
             selectedColor={this.state.selectedColor}
           />
           <Color
-            color="green"
+            color="orange"
             selectColor={this.selectColor}
             selectedColor={this.state.selectedColor}
           />
