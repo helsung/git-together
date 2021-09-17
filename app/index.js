@@ -14,7 +14,7 @@ class Picker extends React.Component {
   constructor() {
     super();
     this.state = {
-      selectedColor: "red"
+      selectedColor: "blanchedalmond"
     };
     this.selectColor = this.selectColor.bind(this);
   }
@@ -36,7 +36,7 @@ class Picker extends React.Component {
         </div>
         <div id="colors-list">
           <Color
-            color="red"
+            color="blanchedalmond"
             selectColor={this.selectColor}
             selectedColor={this.state.selectedColor}
           />
